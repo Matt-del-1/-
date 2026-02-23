@@ -17,6 +17,12 @@ bin/
 *.ipr
 out/
 
+# Настройки Eclipse (на случай, если кто-то другой откроет проект)
+.settings/
+.project
+.classpath
+.factorypath
+
 # Логи приложения
 *.log
 logs/
