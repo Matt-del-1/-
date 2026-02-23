@@ -64,4 +64,3 @@
 ## Запуск проекта
 1. Сборка проекта: ./mvnw clean install
 2. Запуск приложения: ./mvnw spring-boot:run
-3. Swagger UI будет доступен по адресу: http://localhost:8080/swagger-ui.html
