@@ -1,41 +1,33 @@
-# Скомпилированные файлы Java
-*.class
-*.jar
-*.war
-*.ear
-
-# Папки сборщиков (Maven / Gradle)
+HELP.md
 target/
-build/
-.gradle/
-bin/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Настройки IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-
-# Настройки Eclipse (на случай, если кто-то другой откроет проект)
-.settings/
-.project
+### STS ###
+.apt_generated
 .classpath
 .factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Логи приложения
-*.log
-logs/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Docker и системные файлы
-.DS_Store
-Thumbs.db
-node_modules/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Файлы окружения и секреты (Laba 8)
-.env
-*.properties.local
-
-# Временные файлы тестов и отчеты
-.phpunit.result.cache
-/test-results/
+### VS Code ###
+.vscode/
